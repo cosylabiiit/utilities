@@ -14,7 +14,7 @@ conda install -c rdkit rdkit
 ```bash
 pip install -e git+https://github.com/cosylabiiit/chemopy
 ```
-5. Generate all ChemoPy properties
+5. Generate all ChemoPy 2D properties
 ```python
 from pychem.pychem import Chem, constitution, connectivity, kappa, bcut,\
     moran, geary, molproperty, charge, moe, estate, basak
